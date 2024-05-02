@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="preview"></section>
+    <script>
+        let myName;
+        myName="César Carranza";
+        let myAge=21;
+        myName=prompt("Cual es tu nombre");
+        const section=document.querySelector('section');
+        const para1 = document.createElement('p');
+        para1.textContent = myName;
+        const para2 = document.createElement('p');
+        para2.textContent = myAge;
+        section.appendChild(para1);
+        section.appendChild(para2);   
+    </script>
+</body>
+</html>
